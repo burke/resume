@@ -7,7 +7,7 @@ end
 
 desc "Commit to git repo"
 task :commit do
-  system("git add .; git commit -a -m 'Rake auto-commit'; git push")
+  system("git add .; git commit -a -m 'Rake auto-commit'")
 end
 
 desc "Build PDF"
