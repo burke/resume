@@ -2,7 +2,7 @@ task :default => :all
 
 desc "Upload to burkelibbey.org"
 task :upload do
-  system("scp burke_libbey.pdf og:b/files")
+  system("scp burke_libbey.pdf og:b/assets")
 end
 
 desc "Commit to git repo"
